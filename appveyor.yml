@@ -1,15 +1,24 @@
 environment:
   matrix:
-  - JULIAVERSION: "julialang/bin/winnt/x86/0.3/julia-0.3-latest-win32.exe"
-  - JULIAVERSION: "julialang/bin/winnt/x64/0.3/julia-0.3-latest-win64.exe"
-  - JULIAVERSION: "julialang/bin/winnt/x86/0.4/julia-0.4-latest-win32.exe"
-  - JULIAVERSION: "julialang/bin/winnt/x64/0.4/julia-0.4-latest-win64.exe"
-  - JULIAVERSION: "julianightlies/bin/winnt/x86/julia-latest-win32.exe"
-  - JULIAVERSION: "julianightlies/bin/winnt/x64/julia-latest-win64.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x64/0.5/julia-0.5.0-8a862705f2-win64.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x64/0.5/julia-0.5.0-d35e69c755-win64.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x64/0.5/julia-0.5.0-d711b7d8a1-win64.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x64/0.5/julia-0.5.0-d9f7c21258-win64.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x64/0.5/julia-0.5.0-9eee388f63-win64.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x64/0.5/julia-0.5.0-03f28fdc9c-win64.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x86/0.5/julia-0.5.0-8a862705f2-win32.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x86/0.5/julia-0.5.0-d35e69c755-win32.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x86/0.5/julia-0.5.0-ecf6005e00-win32.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x86/0.5/julia-0.5.0-d711b7d8a1-win32.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x86/0.5/julia-0.5.0-d9f7c21258-win32.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x86/0.5/julia-0.5.0-5206bcaf5c-win32.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x86/0.5/julia-0.5.0-9eee388f63-win32.exe"
+  - JULIAVERSION: "julianightlies/bin/winnt/x86/0.5/julia-0.5.0-03f28fdc9c-win32.exe"
 
 branches:
   only:
     - master
+    - tk/avtest
     - /release-.*/
 
 notifications:
